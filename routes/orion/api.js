@@ -1,6 +1,6 @@
 var request = require('request');
 var Promise = require('promise');
-var url="location.host";
+var url="orion";
 
 var getAllOrionData=function getAllOrionData(){
       return new Promise(function (fulfill, reject){
